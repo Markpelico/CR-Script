@@ -1,0 +1,18 @@
+From:	Bryan, Thomas E. (JSC-CD13)[KBR Wyle Services, LLC]
+Sent:	Wednesday, July 30, 2025 10:22 AM
+To:	Inampudi, Ravi Kishore. (JSC-CD13)[KBR Wyle Services, LLC]
+Cc:	Williams, Joseph Conner. (JSC-CD121)[KBR Wyle Services, LLC]; Washington, Felycia S. (JSC-
+CD121)[KBR Wyle Services, LLC]; Thebeau, Christopher D. (JSC-CD13)[KBR Wyle Services, LLC]
+Subject:	RE: Ping: Weekly Status Report 7-30-25
+
+CR 88015 HLS
+HLS Stub (CR 88015 MTC HLS Stub Sim Upgrades for Artemis III Standalone Training Support) � looking 
+into verifying docking/undocking capability. Ida and dynIda terms don�t match with HLA terms like they 
+should, trying to get that working. Was able to add and compile with ICD file. Seems that originally we 
+had just gotten the dynIda part in order to have a bare-bones docking capability, but low fidelity, looking 
+now to get it more capable. 
+
+CR A_III HLS-Orion Joint Test 5 � updated test procedure documents for nominal & off-nominal docking and 
+undocking
+
+

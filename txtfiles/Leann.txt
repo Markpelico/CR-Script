@@ -1,0 +1,27 @@
+R Leann Karaouni
+Status 7/30/2025
+HLS Blue Origin
+CR 86678 Design: App P Blue Origin HLS Demo I/F Design and ICD Development for Gateway for Artemis V
+* JSC-35194-RevB Mission Training Center Generic Simulation Interface Specification
+o Updating for the FluidDistIf method for ECLSS section/App C HLA FOM Data in Generic ICD
+o Generic FluidDist HLA FOM
+o Generic ICD mtgs
+* Joint Test 5e and 5f for Generic Fluid Distributed Ingress and Egress Test
+
+HLA SpaceX
+CR 86343 Artemis III Training Systems SpaceX HLS Interfaces with AxEMU
+* systems engineering HLS and EHP support work for CDR (reading documents for requirements and design information, updating/editing CDR, coordinating CDR inputs from dev engineers) 
+* meetings (System Engineering Tagups, SE Peer Reviews and othe CR meetings)
+
+
+CR 83875 Axiom XEVAS integration with Lunar Mission Sim – Part 1
+* systems engineering support work for CDR, meetings - DONE
+
+Gateway
+CR 84909 TS Gateway HALO Crew Station Interface
+* systems engineering Gateway support work for CDR, meetings - DONE
+
+
+
+
+

@@ -1,0 +1,23 @@
+Date 7/23/2025
+CR 86193 Implementation: Artemis III Training Systems SpaceX HLS Interfaces with Orion 
+CR 84492 Design: CR 16397 - ISS Integration Support for the Axiom Commercial Segment Critical Design Review 
+CR 83875 Design: Axiom XEVAS integration with Lunar Mission Sim 
+CR 86343 Design: Artemis III Training Systems SpaceX HLS Interfaces with AxEMU 
+CR 83200 Implementation: Axiom XEVAS integration with Lunar Mission Sim 
+CR 84240 UPA 6.5 Firmware Update 
+CR 84783 Design: Support HOSC Payload Training for Gateway CMV 
+CR 87893 Enable Ability to run automated tests from FOD IT GitLab in TS Network Agility 
+CR 86360 Upgrade to Latest Version of Python 
+CR 87968 Implementation:  TS Gateway CMV Graphics
+CR FOD01 FOD Software Standards
+CR FOD02 Automated Testing
+
+ CR 000087893 [Found in status emails]
+CR 16397 [Found in status emails]
+CR 84337 [Found in status emails]
+CR 84909 [Found in status emails]
+CR 86141 [Found in status emails]
+CR 86678 [Found in status emails]
+CR 88015 [Found in status emails]
+CR A_III [Found in status emails]
+CR A__II [Found in status emails]

@@ -1,0 +1,75 @@
+From:	McPhie, Duncan (JSC-CD411)[KBR Wyle Services, LLC]
+Sent:	Wednesday, August 6, 2025 1:50 PM
+To:	Inampudi, Ravi Kishore. (JSC-CD13)[KBR Wyle Services, LLC]; Williams, Joseph Conner. (JSC-
+CD121)[KBR Wyle Services, LLC]
+Cc:	Washington, Felycia S. (JSC-CD121)[KBR Wyle Services, LLC]; Wiederholt, Mark (JSC-CD131)[KBR 
+Wyle Services, LLC]
+Subject:	McPhie Duncan, Status: 08/06/2025
+
+Date: 08/06/2025
+
+CR 84240 UPA 6.5 Firmware Update
+Sergio is in the process of finalizing the SSRT for PTF/T&V Demo.
+Created IR: �UPA deployment missing UPA 6.5.1 content� 
+SWHOed for 35.12
+Testing changes in 35.9.1 to ensure they are datastore safe.
+
+CR 87893: Enable Ability to run automated tests from FOD IT GitLab in TS Network
+Gitlab Runner installed on jstsdxs18.
+Hunter and Jaheim are working on unit tests.
+Creating How-To document during work. 
+Project Management Hours:
+Other: 1
+Agility: 0
+
+CR 86141 Design: Artemis III Training Systems SpaceX HLS Interfaces with Orion
+Updating process of creating document on running HLS load for 
+teammate use.
+Based on review from teammates.
+Comparing functionality to HLS Stub branch for HLS Stub CR.
+
+CR 88015 HLS Stub
+Attended meeting and received tasks.
+Analyzing current capabilities of HLS sim.
+This ties into testing procedure Lindy sent out.
+Testing the HLS Stub sim.
+Thomas provided a script to bring up the sim correctly. 
+Sent out questions for CTO meeting/PTF to understand required capabilities.
+Attended meeting going over questions related to suit/HLS Stub capacities.
+Project Management Hours:
+Other: 1
+Agility: 0
+
+CR 87968 Gateway CMV - Graphics
+Continued working on DLO and Project Plan
+Supported meetings.
+Project Management Hours: 
+Other: 5
+Agility: 0 
+
+CR 84337 TS Gateway CMV
+Supported meetings
+Updated Agility stories
+Project Management Hours:
+Other: 0
+Agility: 2
+
+
+
+Duncan McPhie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

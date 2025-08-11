@@ -1,0 +1,28 @@
+From:	Gillispie, David Dean (JSC-CD13)[KBR Wyle Services, LLC]
+Sent:	Wednesday, August 6, 2025 1:09 PM
+To:	Williams, Joseph Conner. (JSC-CD121)[KBR Wyle Services, LLC]; Washington, Felycia S. (JSC-
+CD121)[KBR Wyle Services, LLC]; Inampudi, Ravi Kishore. (JSC-CD13)[KBR Wyle Services, LLC]; 
+Wiederholt, Mark (JSC-CD131)[KBR Wyle Services, LLC]
+Subject:	RE: Gillispie Status 08/06/2025
+
+Date: 08/06/25
+ 
+EHP (100% allocated): 
+
+CR 83200 :  Dean is working on CR83200 Implementation: Axiom XEVAS integration with Lunar Mission Sim
+o	This CR is integrating Axiom�s AxEMU Sim (supplied as Docker Container) with MTC Lunar Mission Sim and HLS_Stub (to be completed AFTER CR83875)
+o	Utilizing Suit Training Federate to act as �wrapper� for AxEMU to support suit 
+location
+Building RH8 repo for development of Suit Training Federate and FOM
+Working on HLS Stub EVA code.
+Supporting xEVAS Axiom/NASA Mission Systems Working Group
+Supporting EHP Project meetings
+
+CR 86400 : Dean is working on CR86400 Implementation: Artemis III Training Systems SpaceX HLS Interfaces with AxEMU (CDR)
+oThis CR is the implementation work for interfacing Axiom�s AxEMU Sim (supplied as Docker Container) with MTC Lunar Mission Sim and SpaceX HLS_SIM (to be completed AFTER CR86343)
+Supporting xEVAS Axiom/NASA Mission Systems Working Group
+Supporting EHP Project meetings
+
+CR 86343 : Dean is working on CR86343 Design: Artemis III Training Systems SpaceX HLS Interfaces with AxEMU (CDR)
+This CR is the design work for interfacing Axiom�s AxEMU Sim (supplied as Docker Container) with MTC Lunar Mission Sim and SpaceX HLS_SIM (to be completed AFTER CR83875)
+Supported presentation of CDR package at SEPR

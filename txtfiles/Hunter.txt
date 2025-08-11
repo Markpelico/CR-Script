@@ -1,0 +1,39 @@
+From:	LeBoeuf, Hunter J. (JSC-CD441)[KBR Wyle Services, LLC]
+Sent:	Wednesday, July 30, 2025 11:58 AM
+To:	Williams, Joseph Conner. (JSC-CD121)[KBR Wyle Services, LLC]; Inampudi, Ravi Kishore. (JSC-
+CD13)[KBR Wyle Services, LLC]
+Cc:	Washington, Felycia S. (JSC-CD121)[KBR Wyle Services, LLC]; Wiederholt, Mark (JSC-CD131)[KBR 
+Wyle Services, LLC]
+Subject:	Status 07/30/25
+
+CR000087893 Gitlab Runners:
+*	Ran a simple Hello world script on the newly installed runners
+o	Checked that it was run in jstsdxs18 
+o	Checked that it worked as intended 
+*	Working with Jaheim on creating and testing unit tests on the runners
+o	Working on c++, Python and Java tests 
+*	Documenting what we learn in, “Gitlab Runners how to” 
+
+CR000083875 Container Insite:
+*	Researching Different docker Linux images, Alpine Linux and Ubuntu 
+o	Word document was created 
+?	Adding updates and recommendations based on proof of concepts 
+*	Creating proof of concept to see if we can run a sim  
+?	I was able to get the container to run trick and compile simple sims 
+?	Working on moving MFED to the Alpine container to test that we can run a big 
+sim on it 
+?	Adding Missing imports found trying to compile MFED with trick 
+o	Creating a step by step guide for others to follow 
+?	Documenting what was learned and keeping track of changes made to make 
+trick work with Alpine 
+
+Static Analysis Counts:
+*	Gathered counts for Lindys monthly report of SAST counts 
+*	Gained access to be able to download all the artifact files instead of sending a mass email every 
+month 
+
+Converting ts-pss into a containerized sim:
+*	No Updates
+
+Meetings:
+*	Attended TS Gateway weekly meeting 

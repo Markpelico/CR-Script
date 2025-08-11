@@ -1,0 +1,39 @@
+From:	Hafernick, Robert B. (JSC-CD411)[KBR Wyle Services, LLC]
+Sent:	Wednesday, July 30, 2025 9:41 AM
+To:	Washington, Felycia S. (JSC-CD121)[KBR Wyle Services, LLC]; Wiederholt, Mark (JSC-CD131)[KBR 
+Wyle Services, LLC]; Williams, Joseph Conner. (JSC-CD121)[KBR Wyle Services, LLC]; Inampudi, Ravi 
+Kishore. (JSC-CD13)[KBR Wyle Services, LLC]; Garay, Lindy A. (JSC-CD13)[KBR Wyle Services, LLC]
+Subject:	Bob Hafernick - Weekly Status
+
+Date: 07/30/2025
+ 
+Gateway, EHP & Orion Work
+*         Gateway
+o	No work
+
+*         Extravehicular Activity and Human Surface Mobility Program (EHP)
+o	xEVAS
+?	Submitted a NAMS request for xEVAS General Access to the Sharepoint site.
+o	Axiom
+CR 84492 Design: Axiom Integration Critical Design Review (CDR)
+       No work
+
+CR A__II
+*         Orion
+o	New IMACS XTCE files
+?	Retrieved BLD2.0 V7 of the IMACS MRTU xmls, and BLD15.2 V7 and V8 of the 
+IMACS Cmd and Telem xmls.  All out of Ops History on the MSE.
+o	PCAP Files to MSFC
+?	Shared the 2409-03 ICPS and SLS files for the 8/19 Joint Ascent Sim.
+
+Accomplishments
+*        Completed the SATERN Cybersecurity Training that was due, but also required for an xEVAS 
+NAMS request.
+ 
+Help Needed
+*        Working on a backup plan for getting files from the kedalion lab.
+ 
+FYI
+*	Grace told me there’s a problem with traj set 2409-05.  The SLS time is behind ICPS by an 
+hour.  Luis Betancourt determined the SLS time was based on Middle of Window (MOW) instead 
+of Close of Window (COW).  Grace will let ULA know so they can rerun the sim.
