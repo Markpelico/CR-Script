@@ -81,9 +81,13 @@ def main():
             cr_match = re.search(r'CR\s+(\w+)\s*(.*)', line)
             if cr_match:
                 cr_number = cr_match.group(1)
+                # Normalize CR format: remove leading zeros from numeric CRs
+                cr_normalized = cr_number.upper()
+                if cr_normalized.isdigit():
+                    cr_normalized = str(int(cr_normalized))  # Remove leading zeros
                 full_title = line  # Keep the full line as title
-                known_crs.add(cr_number)
-                cr_titles[cr_number] = full_title
+                known_crs.add(cr_normalized)
+                cr_titles[cr_normalized] = full_title
     
     print(f"Found {len(known_crs)} known CRs in Models_CR_List.txt")
     
@@ -137,12 +141,23 @@ def main():
             print(f"  Warning: Could not read {txt_file}")
             continue
         
-        # Find CRs mentioned in this file
+        # Find CRs mentioned in this file (only from lines that START with CR)
         crs_found = set()
-        cr_matches = re.findall(r'\bCR\s*([A-Za-z0-9_]+)', content, re.IGNORECASE)
-        for cr in cr_matches:
-            if re.search(r'\d', cr) or cr.upper() in ['FOD01', 'FOD02', 'A_III', 'A__II']:
-                crs_found.add(cr.upper())
+        lines = content.split('\n')
+        for line in lines:
+            # Only process lines that start with CR (after trimming whitespace)
+            line_trimmed = line.strip()
+            if line_trimmed.upper().startswith('CR'):
+                # Only check the first 15 characters to avoid duplicate matches in same line
+                line_start = line_trimmed[:15]
+                cr_matches = re.findall(r'\bCR\s*([A-Za-z0-9_]+)', line_start, re.IGNORECASE)
+                for cr in cr_matches:
+                    if re.search(r'\d', cr) or cr.upper() in ['FOD01', 'FOD02', 'A_III', 'A__II']:
+                        # Normalize CR format: remove leading zeros from numeric CRs
+                        cr_normalized = cr.upper()
+                        if cr_normalized.isdigit():
+                            cr_normalized = str(int(cr_normalized))  # Remove leading zeros
+                        crs_found.add(cr_normalized)
         
         email_crs.update(crs_found)
         
