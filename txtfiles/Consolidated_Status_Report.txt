@@ -1,0 +1,240 @@
+=================================================================
+NASA Models Team - Consolidated CR Status Report
+Generated: August 27, 2025 at 02:43 AM
+Source: Weekly Status Reports
+Total CRs with Activity: 15
+Team Members: 16
+=================================================================
+
+This report consolidates individual status updates by CR number,
+showing all team member contributions for each active CR.
+
+-----------------------------------------------------
+
+CR A_III - Artemis III Exploration/Orion
+Thomas - 
+    CR A_III HLS-Orion Joint Test 5 � updated test procedure documents for nominal & off-nominal docking and
+    undocking
+
+-----------------------------------------------------
+
+CR A__II - Artemis II Exploration/Orion
+Bob - 
+    CR A__II
+    *         Orion
+    o	New IMACS XTCE files
+    ?	Retrieved BLD2.0 V7 of the IMACS MRTU xmls, and BLD15.2 V7 and V8 of the 
+    IMACS Cmd and Telem xmls.  All out of Ops History on the MSE.
+    o	PCAP Files to MSFC
+    ?	Shared the 2409-03 ICPS and SLS files for the 8/19 Joint Ascent Sim.
+    
+    Accomplishments
+    *        Completed the SATERN Cybersecurity Training that was due, but also required for an xEVAS 
+    NAMS request.
+     
+    Help Needed
+    *        Working on a backup plan for getting files from the kedalion lab.
+     
+    FYI
+    *	Grace told me there’s a problem with traj set 2409-05.  The SLS time is behind ICPS by an 
+    hour.  Luis Betancourt determined the SLS time was based on Middle of Window (MOW) instead 
+    of Close of Window (COW).  Grace will let ULA know so they can rerun the sim.
+
+-----------------------------------------------------
+
+CR 83200 - Implementation: Axiom XEVAS integration with Lunar Mission Sim
+Dean - 
+    CR 83200 :  Dean is working on CR83200 Implementation: Axiom XEVAS integration with Lunar Mission Sim
+    o	This CR is integrating Axiom�s AxEMU Sim (supplied as Docker Container) with MTC Lunar Mission Sim and HLS_Stub (to be completed AFTER CR83875)
+    o	Utilizing Suit Training Federate to act as �wrapper� for AxEMU to support suit 
+    location
+    Building RH8 repo for development of Suit Training Federate and FOM
+    Working on HLS Stub EVA code.
+    Supporting xEVAS Axiom/NASA Mission Systems Working Group
+    Supporting EHP Project meetings
+
+-----------------------------------------------------
+
+CR 83875 - Design: Axiom XEVAS integration with Lunar Mission Sim
+Hunter - 
+    CR000083875 Container Insite:
+    *	Researching Different docker Linux images, Alpine Linux and Ubuntu 
+    o	Word document was created 
+    ?	Adding updates and recommendations based on proof of concepts 
+    *	Creating proof of concept to see if we can run a sim  
+    ?	I was able to get the container to run trick and compile simple sims 
+    ?	Working on moving MFED to the Alpine container to test that we can run a big 
+    sim on it 
+    ?	Adding Missing imports found trying to compile MFED with trick 
+    o	Creating a step by step guide for others to follow 
+    ?	Documenting what was learned and keeping track of changes made to make 
+    trick work with Alpine 
+    
+    Static Analysis Counts:
+    *	Gathered counts for Lindys monthly report of SAST counts 
+    *	Gained access to be able to download all the artifact files instead of sending a mass email every 
+    month 
+    
+    Converting ts-pss into a containerized sim:
+    *	No Updates
+    
+    Meetings:
+    *	Attended TS Gateway weekly meeting
+Leann - 
+    CR 83875 Axiom XEVAS integration with Lunar Mission Sim – Part 1
+    * systems engineering support work for CDR, meetings - DONE
+    
+    Gateway
+
+-----------------------------------------------------
+
+CR 84240 - UPA 6.5 Firmware Update
+Sergio - 
+    CR 84240 UPA Firmware Update to 6.5
+    *	Demo most of UPA 6.5 to PTF.
+    *	Need 4 hr block to complete RFTA Refill.
+    *	Bobby will let me know when they will be available again.
+    *	Couple issues found. Messaged PTF to write IRs.
+    INC0066948 Eclss – Update UPA Firmware to 6.5.1
+    *	Cleaning up a few comments
+    *	Ready to SWHO
+    INC0066409 Eclss – UPA 6.5 Update: One-Step Command triggering Queue Empty
+    *	In work. 
+    INC0066403 Eclss - Retain UPA RFTA Status Empty Over Power Cycle
+    *	In work
+Duncan - 
+    CR 84240 UPA 6.5 Firmware Update
+    Sergio is in the process of finalizing the SSRT for PTF/T&V Demo.
+    Created IR: �UPA deployment missing UPA 6.5.1 content� 
+    SWHOed for 35.12
+    Testing changes in 35.9.1 to ensure they are datastore safe.
+
+-----------------------------------------------------
+
+CR 84337 - Implementation: TS Gateway - CMV
+Duncan - 
+    CR 84337 TS Gateway CMV
+    Supported meetings
+    Updated Agility stories
+    Project Management Hours:
+    Other: 0
+    Agility: 2
+
+-----------------------------------------------------
+
+CR 84492 - Design: CR 16397 - ISS Integration Support for the Axiom Commercial Segment
+Bob - 
+    CR 84492 Design: Axiom Integration Critical Design Review (CDR)
+           No work
+
+-----------------------------------------------------
+
+CR 84909 - Design: TS Gateway HALO Crew Station Interface
+Leann - 
+    CR 84909 TS Gateway HALO Crew Station Interface
+    * systems engineering Gateway support work for CDR, meetings - DONE
+
+-----------------------------------------------------
+
+CR 86141 - Design: Artemis III Training Systems SpaceX HLS Interfaces with Orion
+Duncan - 
+    CR 86141 Design: Artemis III Training Systems SpaceX HLS Interfaces with Orion
+    Updating process of creating document on running HLS load for 
+    teammate use.
+    Based on review from teammates.
+    Comparing functionality to HLS Stub branch for HLS Stub CR.
+
+-----------------------------------------------------
+
+CR 86343 - Design: Artemis III Training Systems SpaceX HLS Interfaces with AxEMU
+Dean - 
+    CR 86343 : Dean is working on CR86343 Design: Artemis III Training Systems SpaceX HLS Interfaces with AxEMU (CDR)
+    This CR is the design work for interfacing Axiom�s AxEMU Sim (supplied as Docker Container) with MTC Lunar Mission Sim and SpaceX HLS_SIM (to be completed AFTER CR83875)
+    Supported presentation of CDR package at SEPR
+Leann - 
+    CR 86343 Artemis III Training Systems SpaceX HLS Interfaces with AxEMU
+    * systems engineering HLS and EHP support work for CDR (reading documents for requirements and design information, updating/editing CDR, coordinating CDR inputs from dev engineers) 
+    * meetings (System Engineering Tagups, SE Peer Reviews and othe CR meetings)
+
+-----------------------------------------------------
+
+CR 86400
+Dean - 
+    CR 86400 : Dean is working on CR86400 Implementation: Artemis III Training Systems SpaceX HLS Interfaces with AxEMU (CDR)
+    oThis CR is the implementation work for interfacing Axiom�s AxEMU Sim (supplied as Docker Container) with MTC Lunar Mission Sim and SpaceX HLS_SIM (to be completed AFTER CR86343)
+    Supporting xEVAS Axiom/NASA Mission Systems Working Group
+    Supporting EHP Project meetings
+
+-----------------------------------------------------
+
+CR 86678 - Design:  App P Blue Origin HLS Demo I/F Design and ICD Development for Gateway for Artemis V
+Leann - 
+    CR 86678 Design: App P Blue Origin HLS Demo I/F Design and ICD Development for Gateway for Artemis V
+    * JSC-35194-RevB Mission Training Center Generic Simulation Interface Specification
+    o Updating for the FluidDistIf method for ECLSS section/App C HLA FOM Data in Generic ICD
+    o Generic FluidDist HLA FOM
+    o Generic ICD mtgs
+    * Joint Test 5e and 5f for Generic Fluid Distributed Ingress and Egress Test
+    
+    HLA SpaceX
+
+-----------------------------------------------------
+
+CR 87893 - Enable Ability to run automated tests from FOD IT GitLab in TS Network
+Hunter - 
+    CR000087893 Gitlab Runners:
+    *	Ran a simple Hello world script on the newly installed runners
+    o	Checked that it was run in jstsdxs18 
+    o	Checked that it worked as intended 
+    *	Working with Jaheim on creating and testing unit tests on the runners
+    o	Working on c++, Python and Java tests 
+    *	Documenting what we learn in, “Gitlab Runners how to”
+Duncan - 
+    CR 87893: Enable Ability to run automated tests from FOD IT GitLab in TS Network
+    Gitlab Runner installed on jstsdxs18.
+    Hunter and Jaheim are working on unit tests.
+    Creating How-To document during work. 
+    Project Management Hours:
+    Other: 1
+    Agility: 0
+
+-----------------------------------------------------
+
+CR 87968 - Implementation:  TS Gateway CMV Graphics
+Duncan - 
+    CR 87968 Gateway CMV - Graphics
+    Continued working on DLO and Project Plan
+    Supported meetings.
+    Project Management Hours: 
+    Other: 5
+    Agility: 0
+
+-----------------------------------------------------
+
+CR 88015 - MTC HLS Stub Sim Upgrades for Artemis III Standalone Training Support  - Part1
+Sergio - 
+    CR 88015 MTC HLS Stub Sim Upgrades for Artemis III Standalone Training Support  - Part1
+    *	Duncan and I test Lindy’s HLS Procedure. 
+    *	Trying to compile HLS Stub and test with Lindy’s Procedure.
+    *	Looked  at Dragon Stub MDT display to get an idea for HLS Stub pages.
+Thomas - 
+    CR 88015 HLS
+    HLS Stub (CR 88015 MTC HLS Stub Sim Upgrades for Artemis III Standalone Training Support) � looking 
+    into verifying docking/undocking capability. Ida and dynIda terms don�t match with HLA terms like they 
+    should, trying to get that working. Was able to add and compile with ICD file. Seems that originally we 
+    had just gotten the dynIda part in order to have a bare-bones docking capability, but low fidelity, looking 
+    now to get it more capable.
+Duncan - 
+    CR 88015 HLS Stub
+    Attended meeting and received tasks.
+    Analyzing current capabilities of HLS sim.
+    This ties into testing procedure Lindy sent out.
+    Testing the HLS Stub sim.
+    Thomas provided a script to bring up the sim correctly. 
+    Sent out questions for CTO meeting/PTF to understand required capabilities.
+    Attended meeting going over questions related to suit/HLS Stub capacities.
+    Project Management Hours:
+    Other: 1
+    Agility: 0
+
+-----------------------------------------------------
